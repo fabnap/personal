@@ -10,8 +10,8 @@ nav_order: 2
 
 ### Chair
 
-- [High Precision X-Ray Measurements 2023](https://hpxm2023.github.io), organization and chair with Dr. Alessandro Scordo, Frascati 19-23/06/2023 
 - [ALPACA: modern ALgorithms in machine learning and data analysis: from medical Physics to research with ACcelerAtors and in underground laboratories](https://www.ectstar.eu/workshops/alpaca-modern-algorithms-in-machine-learning-and-data-analysis-from-medical-physics-to-research-with-accelerators-and-in-underground-laboratories/), Main Organizer and chair, financed by ECT* after competitive selection, Trento, 20-24/11/2023
+- [High Precision X-Ray Measurements 2023](https://hpxm2023.github.io), organization and chair with Dr. Alessandro Scordo, Frascati 19-23/06/2023 
 
 
 ### LOC
