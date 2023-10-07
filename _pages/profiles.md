@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /people/
 title: people
-description: I work within the group lead by [Dr. Catalina Curceanu](https://en.wikipedia.org/wiki/Catalina_Curceanu) at Frascati National Laboratories, INFN
+description: I work within the group lead by Dr. Catalina Curceanu at Frascati National Laboratories, INFN
 nav: true
 nav_order: 6
 
