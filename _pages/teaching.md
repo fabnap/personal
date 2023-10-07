@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /teaching/
-title: Students
-description: Some useful information for students
+title: students
+description: 
 nav: true
 nav_order: 5
 ---
@@ -10,7 +10,7 @@ nav_order: 5
 Here I will list some useful information for present and prospective students. 
 We welcome both Bachelor/Master and PhD students.
 
-# Thesis and Stage opportunities at INFN's Frascati National Laboratories
+### Thesis and Stage opportunities at INFN's Frascati National Laboratories
 
 Take a quiz:
 
@@ -31,6 +31,6 @@ The VIP-2 experiment is a detector located at the Gran Sasso national laboratori
 
 Both experiments are international collaborations, you will have the chance to be supervised by leading experts in the field, with decades long experience.
 
-For any questions and more detailed info write us:
+For any questions and more detailed info write me:
 
 fabrizio.napolitano[at]lnf.infn.it

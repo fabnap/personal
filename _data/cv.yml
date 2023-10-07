@@ -101,7 +101,7 @@
         - Non-commutative Quantum Gravity
 
 - title: Other Interests
-  type: list
+  type: nested_list
   contents:
     - title: Hobbies
       items:
