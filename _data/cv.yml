@@ -43,7 +43,6 @@
             - Implemnented GEANT4 simulation of the apparatus
             - Implemnented a Convolutional Neural Network method to discriminate and calibrate HPGe detector pulses
         - title: SIDDHARTA-2 Collaboration
-
           contents:
             - Precision measurement of exotic system with charged kaons at the DAFNE collider (Frascati), using Silicon Drift Detectors, allowing characterization of low-energy QCD in the strangess sector.
             - Co-responsible of the operation of the SIDDHARTA-2 Luminometer, a subdetector devoted to luminosity measurements  
@@ -104,7 +103,7 @@
 - title: Other Interests
   type: list
   contents:
-    - title: Hobbies:
+    - title: Hobbies
       items:
         - Home automation
         - Microcontrollers 
