@@ -1,6 +1,6 @@
 ---
 layout: post
-title: In charge of SIDDHARTA-2 Run Coordinator
+title: In charge of SIDDHARTA-2 Run Coordination
 date: 2023-10-09 09:00:00+0200
 inline: false
 related_posts: false
