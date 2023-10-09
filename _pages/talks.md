@@ -7,9 +7,6 @@ nav: true
 nav_order: 2
 ---
 
-
-### Talks
-
 - [Enhancing SDD energy response with ML and Differentiable Programming](https://agenda.infn.it/event/35806/) workshop at LNF
   - Date: 18/07/23
 
