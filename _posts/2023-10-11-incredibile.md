@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  -Italian- L'insostenibile pesantezza della burocrazia per riconoscere titoli stranieri
-date:   2023-10-11 15:40:16-0100
+date:   2023-10-11 10:40:16-0100
 description: Perché l'Italia non attrae ricercatori stranieri
 tags: ricerca
 categories: sample-posts
@@ -22,14 +22,6 @@ Nel frattempo però, è stata introdotta una nuova legislazione con l'obiettivo 
 
 La situazione è ulteriormente complicata dal fatto che il sito web del CIMEA è stato chiuso per "vacanze" ad agosto, e a settembre è stato disabilitato fino ai primi mesi del 2024 per "migliorare il servizio". Questo significa che chiunque sia in procinto di ottenere il riconoscimento dei propri titoli di studio si troverà ad affrontare ulteriori ritardi e frustrazioni.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/cimea.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-<div class="caption">
-    Il sito CIMEA per il rilascio di certificati di Comparability e Verification l'11 Ottobre 2023
-</div>
 
 
 Inoltre, in molte università la procedura di equipollenza può essere attivata solamente a cavallo tra gli anni accademici o comunque per pochi mesi, potenzialemente allungando di molto tutta la procedura.
