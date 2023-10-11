@@ -22,8 +22,7 @@ Nel frattempo però, è stata introdotta una nuova legislazione con l'obiettivo 
 
 La situazione è ulteriormente complicata dal fatto che il sito web del CIMEA è stato chiuso per "vacanze" ad agosto, e a settembre è stato disabilitato fino ai primi mesi del 2024 per "migliorare il servizio". Questo significa che chiunque sia in procinto di ottenere il riconoscimento dei propri titoli di studio si troverà ad affrontare ulteriori ritardi e frustrazioni.
 
-<!-- {% include figure.html path="assets/img/cimea.png" class="img-fluid rounded z-depth-1" zoomable=true %} -->
-![](assets/img/cimea.png)
+![cimea](assets/img/cimea.png)
 *Il sito CIMEA per il rilascio di certificati di Comparability e Verification l'11 Ottobre 2023*
 
 Inoltre, in molte università la procedura di equipollenza può essere attivata solamente a cavallo tra gli anni accademici o comunque per pochi mesi, potenzialemente allungando di molto tutta la procedura.
