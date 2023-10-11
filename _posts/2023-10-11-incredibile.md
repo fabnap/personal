@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  [Italian] L'insostenibile pesantezza della burocrazia per riconoscere titoli stranieri
+title:  -Italian- L'insostenibile pesantezza della burocrazia per riconoscere titoli stranieri
 date:   2020-10-11 15:40:16-0100
 description: Perché l'Italia non attrae ricercatori stranieri
 tags: ricerca
