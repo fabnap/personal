@@ -16,13 +16,13 @@ Il primo ostacolo con cui mi sono scontrato è stato la necessità di ottenere u
 
 Successivamente, ho dovuto inviare le traduzioni via posta espressa al consolato, il che è necessario per ottenere la dichiarazione di valore. Quest'ultimo è semplicemente un documento che attesta che l'università straniera esiste e rilascia titoli di studio validi nel proprio paese (ovviamente non esprimendosi sulla comparabilità di questi con i titoli italiani). Ancora una volta, questa procedura ha comportato costi notevoli e ha richiesto nove mesi di attesa. 
 
-A questo punto, si puo' tirare un sospiro di sollivevo, perché per partecipare ad un concorso pubblico si può seguire la strada dell'equivalenza, ovvero mandare tutto il plico al ministero della funzione pubblica insieme al bando di concorso che, qualora si risultasse vincitori, esprime un parere sulla validità del titolo per quel concorso.
+A questo punto, si può tirare un sospiro di sollivevo, perché per partecipare ad un concorso pubblico è possibile seguire la strada dell'equivalenza, ovvero mandare tutto il plico al ministero della funzione pubblica insieme al bando di concorso che, qualora si risultasse vincitori, esprime un parere sulla validità del titolo per quel concorso.
 
 Nel frattempo però, è stata introdotta una nuova legislazione con l'obiettivo di semplificare il processo di riconoscimento, grazie a un ente chiamato CIMEA. Tuttavia, il Ministero dell'Istruzione italiano ha scaricato completamente sulle università la responsabilità dei riconoscimenti (anche dei dottorati), richiedendo ora questo documento CIMEA (in qualche caso in aggiunta a quelli già ottenuti).
 
 La situazione è ulteriormente complicata dal fatto che il sito web del CIMEA è stato chiuso per "vacanze" ad agosto, e a settembre è stato disabilitato fino ai primi mesi del 2024 per "migliorare il servizio". Questo significa che chiunque sia in procinto di ottenere il riconoscimento dei propri titoli di studio si troverà ad affrontare ulteriori ritardi e frustrazioni.
 
-![](cimea.png)
+![](assets/img/cimea.png)
 *Il sito CIMEA per il rilascio di certificati di Comparability e Verification l'11 Ottobre 2023*
 
 Inoltre, in molte università la procedura di equipollenza può essere attivata solamente a cavallo tra gli anni accademici o comunque per pochi mesi, potenzialemente allungando di molto tutta la procedura.
