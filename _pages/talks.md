@@ -7,6 +7,16 @@ nav: true
 nav_order: 2
 ---
 
+
+- [ML and diffentiable programming optimization for X-ray experiments](https://indico.ectstar.eu/event/200/timetable/?view=standard) Bridging scales workshop at ECT* 
+  - Date: 15/04/24
+
+- [Machine Learning with SIDDHARTA-2](https://agenda.infn.it/event/38135/) KASP workshop at LNF “Kaonic Atoms between QED, QCD, and beyond Standard Model physics research
+  - Date: 28/11/23
+
+- [ML and Differentiable Programming optimization for X-ray spectroscopy](https://indico.ectstar.eu/event/184/) ALPACA Workshop at ECT*, Trento 
+  - Date: 24/11/23
+
 - [Enhancing SDD energy response with ML and Differentiable Programming](https://agenda.infn.it/event/35806/) workshop at LNF
   - Date: 18/07/23
 

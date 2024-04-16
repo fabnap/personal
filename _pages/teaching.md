@@ -34,3 +34,7 @@ Both experiments are international collaborations, you will have the chance to b
 For any questions and more detailed info write me:
 
 fabrizio.napolitano[at]lnf.infn.it
+
+### Former Students
+
+Federico Nola (BSc and MSc) *thesis on VIP-2 Experiment*, now PhD candidate at University of Caserta
