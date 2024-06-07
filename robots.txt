@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://fabnap.github.io/personal//sitemap.xml
+Sitemap: www.fabrizionapolitano.it/sitemap.xml
