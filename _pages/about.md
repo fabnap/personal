@@ -25,6 +25,8 @@ I received my PhD degree in Particle Physics at the Heidelberg Universität, Ger
 
 During my PhD I worked with the [Kirchhoff-Institut Für Physik](https://www.kip.uni-heidelberg.de/atlas/) and was founded by the [International Max Planck Research School on Fundamental Symmetries](https://www.mpi-hd.mpg.de/imprs-ptfs/); I spent over a year at [CERN](https://home.cern/) working on the first level trigger.
 
+Got my Master in Physics at the Heidelberg Universität, and my Bachelor at the Tor Vergata University of Rome.
+
 ---
 
 My main interests are **Machine Learning** (ML) and **Artificial Intelligence** (AI) in physics, foundation of **quantum mechanics** and exotic kaonic system at particle **colliders**.
@@ -39,3 +41,5 @@ I am also participating in the VIP-2 Experiment at the Gran Sasso underground la
 Within the VIP Collaboration, we are looking for deviation to the standard quantum theory in the wavefunction collapse, and connecting the dots to a class of quantum gravity theories called Non-Commutative Quantum Gravity (NCQG).
 
 I am author of over 300 peer-reviewed articles, with a h-index of 92
+
+---
