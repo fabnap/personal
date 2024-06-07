@@ -83,4 +83,4 @@ nav_order: 2
 
 - [Improved mass reconstruction of large-radius jets with the ATLAS detector using tracker and calorimeter information](https://indico.cern.ch/event/564163/) Physikalische Gesellschaft (DPG) 2017, Münster (DE)
 
-- [Large-R Jets basics](https://agenda.infn.it/event/9389/) ATLAS Hadronic Calibration Workshop (HCW) 2016, Corfu (GR)
+- [Large-R Jets basics](https://indico.cern.ch/event/506093/overview) ATLAS Hadronic Calibration Workshop (HCW) 2016, Corfu (GR)
