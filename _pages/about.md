@@ -23,7 +23,7 @@ social: true  # includes social icons at the bottom of the page
 
 I received my PhD degree in Particle Physics at the Heidelberg Universität, Germany, *magna cum laude*, with a thesis on a search for Dark Matter with the ATLAS detector at LHC, advised by [Prof. Oleg Brandt](https://www.phy.cam.ac.uk/directory/dr-oleg-brandt) (University of Cambridge).
 
-During my PhD I worked with the [Kirchhoff-Institut Für Physik](https://www.kip.uni-heidelberg.de/atlas/) and was founded by the [International Max Planck Research School on Fundamental Symmetries](https://www.mpi-hd.mpg.de/imprs-ptfs/); I spent over a year at [CERN](https://home.cern/) working on the first level trigger.
+During my PhD I worked with the [Kirchhoff-Institut Für Physik](https://www.kip.uni-heidelberg.de/atlas/) and was funded by the [International Max Planck Research School on Fundamental Symmetries](https://www.mpi-hd.mpg.de/imprs-ptfs/); I spent over a year at [CERN](https://home.cern/) working on the first level trigger.
 
 Got my Master in Physics at the Heidelberg Universität, and my Bachelor at the Tor Vergata University of Rome.
 
