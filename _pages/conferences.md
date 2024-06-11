@@ -16,13 +16,14 @@ nav_order: 2
 
 ### LOC
 
+- [Exploring the Quantum Boundaries: an Odyssey into the gravity related collapse models](https://agenda.infn.it/event/40188/) 12/06/24 to 14/06/24
 - [The Hitchhiker's Advanced Guide to Quantum Collapse Models and their impact in science, philosophy, technology and biology](https://agenda.infn.it/event/32081) 31/10/22 to 4/11/22 
 - [High Precision Measurements of Kaonic Atoms](https://agenda.infn.it/event/29975/) 09/02/22 
 - [Fundamental Physics with exotic atoms and radiation detectors Symposium](https://agenda.infn.it/event/28836/registrations/2816/) 25-26/11/21 
 - [High Precision X-Ray measurement 2021](https://agenda.infn.it/event/22007/) 8-20/06/21 
 - [Mini-Symposium Quantum Boundaries: Gravity Related Collapse Models](https://agenda.infn.it/event/29204/) 2021 
 - [Workshop: is Quantum Theory Exact? Exploring Quantum Boundaries](https://agenda.infn.it/event/24187/) 2020, concerning discussion of collapse models to solve the measurement problem in QM. Participation of Lajos Diósi and Roger Penrose 
-
+ 
 
 ### Editorial Activities
 
