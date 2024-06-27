@@ -16,6 +16,7 @@ nav_order: 2
 
 ### LOC
 
+- [Present and future perspectives in Hadron Physics ](https://agenda.infn.it/event/38467/overview) 17-19 June 2024
 - [Exploring the Quantum Boundaries: an Odyssey into the gravity related collapse models](https://agenda.infn.it/event/40188/) 12/06/24 to 14/06/24
 - [The Hitchhiker's Advanced Guide to Quantum Collapse Models and their impact in science, philosophy, technology and biology](https://agenda.infn.it/event/32081) 31/10/22 to 4/11/22 
 - [High Precision Measurements of Kaonic Atoms](https://agenda.infn.it/event/29975/) 09/02/22 
