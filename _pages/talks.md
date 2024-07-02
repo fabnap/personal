@@ -7,14 +7,19 @@ nav: true
 nav_order: 2
 ---
 
+- [Kaonic Atoms with the SIDDHARTA-2 experiment](https://indico.koza.if.uj.edu.pl/event/15/timetable/?view=standard) at the 5th Jagiellonian Symposium on Advances in Particles physics and Medicine, Kraków (PL), **invited**
+  - Date: 01/07/2024
 
-- [ML and diffentiable programming optimization for X-ray experiments](https://indico.ectstar.eu/event/200/timetable/?view=standard) Bridging scales workshop at ECT* 
+- [Machine Learning with the VIP-2 Experiment](https://agenda.infn.it/event/40188/) Exploring the Quantum Boundaries: an Odyssey into the gravity related collapse models workshop at LNF
+  - Date: 13/06/2024
+
+- [ML and diffentiable programming optimization for X-ray experiments](https://indico.ectstar.eu/event/200/timetable/?view=standard) Bridging scales workshop at ECT*, **invited**
   - Date: 15/04/2024
 
 - [Machine Learning with SIDDHARTA-2](https://agenda.infn.it/event/38135/) KASP workshop at LNF “Kaonic Atoms between QED, QCD, and beyond Standard Model physics research
   - Date: 28/11/2023
 
-- [ML and Differentiable Programming optimization for X-ray spectroscopy](https://indico.ectstar.eu/event/184/) ALPACA Workshop at ECT*, Trento 
+- [ML and Differentiable Programming optimization for X-ray spectroscopy](https://indico.ectstar.eu/event/184/) ALPACA Workshop at ECT*, Trento, **organizer**
   - Date: 24/11/2023
 
 - [Enhancing SDD energy response with ML and Differentiable Programming](https://agenda.infn.it/event/35806/) workshop at LNF
