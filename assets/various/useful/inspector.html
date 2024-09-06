@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON Difference Plotter</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <p>
+        To use this JSON Difference Plotter, please follow these steps:
+        <ol>
+            <li>Select two JSON files by clicking on the "Choose File" buttons.</li>
+            <li>Make sure the first file is the older version and the second file is the newer version.</li>
+            <li>After both files are selected, click the "Plot Difference" button to generate the heatmap.</li>
+            <li>The heatmap represents the difference between the two JSON files. </li>
+        </ol>
+        <p>Transparent (-100) channel not present in both.</p>
+        <p>Red (99) channel not present in the last file.</p>
+        <p>Blue (-99) channel not present in the first file.</p>
+
+
+    </p>
+
+    <input type="file" id="file1">
+    <input type="file" id="file2">
+
+    <button onclick="plotDifference()">Plot Difference</button>
+    <div id="plot1"></div>
+    <div id="plot2"></div>
+    <script>
+        function readJsonFile(inputElement) {
+            return new Promise((resolve, reject) => {
+                const file = inputElement.files[0];
+                const reader = new FileReader();
+                reader.onload = (event) => {
+                    const data = JSON.parse(event.target.result);
+                    resolve(data);
+                };
+                reader.onerror = (event) => {
+                    reject(new Error("Failed to read file"));
+                };
+                reader.readAsText(file);
+            });
+        }
+
+        async function plotDifference() {
+            const file1 = document.getElementById('file1');
+            const file2 = document.getElementById('file2');
+
+            const data1 = await readJsonFile(file1);
+            const data2 = await readJsonFile(file2);
+
+            const keys = Object.keys(data1);
+            const buses = Array.from(new Set(keys.map(key => key.split('_')[0])));
+            const sdds = Array.from(new Set(keys.map(key => key.split('_')[1]))).sort((a, b) => Number(a.replace('sdd', '')) - Number(b.replace('sdd', '')));
+
+            const data_firstparams = buses.map(bus => {
+                return sdds.map(sdd => {
+                    const key = `${bus}_${sdd}`;
+                    // if (!(key in data1) || !(key in data2)) {
+                    //     return -99;  // red
+                    // }
+                    if (!(key in data1) && !(key in data2)){
+                        return -100;  // transparent
+                    }
+                    if (!(key in data1)){
+                        return -99;  // blue
+                    }
+                    if (!(key in data2)){
+                        return 99;  // red
+                    }
+                    // // this is the old way of calculating the difference ( average of the two values)
+                    // const diffs = data1[key].map((val1, i) => (val1 - data2[key][i]) / (val1 + data2[key][i]));
+                    // const avg_diff = diffs.reduce((a, b) => a + b, 0) / diffs.length;
+
+                    const diffs = data1[key].map((val1, i) => (val1 - data2[key][i]) / ( data2[key][i]));
+                    const avg_diff = diffs[0];
+                    return avg_diff;
+
+                });
+            });
+            const data_secondparams = buses.map(bus => {
+                return sdds.map(sdd => {
+                    const key = `${bus}_${sdd}`;
+                    // if (!(key in data1) || !(key in data2)) {
+                    //     return -99;  // red
+                    // }
+                    if (!(key in data1) && !(key in data2)){
+                        return -100;  // transparent
+                    }
+                    if (!(key in data1)){
+                        return -99;  // blue
+                    }
+                    if (!(key in data2)){
+                        return 99;  // red
+                    }
+                    // // this is the old way of calculating the difference ( average of the two values)
+                    // const diffs = data1[key].map((val1, i) => (val1 - data2[key][i]) / (val1 + data2[key][i]));
+                    // const avg_diff = diffs.reduce((a, b) => a + b, 0) / diffs.length;
+
+                    const diffs = data1[key].map((val1, i) => (val1 - data2[key][i]) / ( data2[key][i]));
+                    const avg_diff = diffs[1];
+                    return avg_diff;
+
+                });
+            });
+        const trace1 = {
+            z: data_firstparams.map(row => row.map(val => (val === -100 || val === -99 || val === 99) ? val : NaN)),
+            x: sdds,
+            y: buses,
+            type: 'heatmap',
+            colorscale: [
+                [0, 'rgba(0, 0, 0, 0)'],  // maps to -100 (transparent)
+                [0.0001, 'blue'],  // maps to -99
+                [1, 'red'],  // maps to 99
+            ],
+            zmin: -100,
+            zmax: 99,
+            showscale: false,
+            hoverinfo: 'none'  // disable hover information
+
+        };
+
+        const trace2_firstparam = {
+            z: data_firstparams.map(row => row.map(val => (val !== -100 && val !== -99 && val !== 99) ? val : NaN)),
+            x: sdds,
+            y: buses,
+            type: 'heatmap',
+            colorscale: 'Jet',
+            zmin: -0.1,
+            zmax: 0.1
+        };
+        const trace2_secondparam = {
+            z: data_secondparams.map(row => row.map(val => (val !== -100 && val !== -99 && val !== 99) ? val : NaN)),
+            x: sdds,
+            y: buses,
+            type: 'heatmap',
+            colorscale: 'Jet',
+            zmin: -0.5,
+            zmax: 0.5
+        };
+        const layout_firstparam = {
+            title: 'Relative difference slope',
+            xaxis: {
+                title: 'SDDs',
+            }
+        };
+        const layout_secondparam = {
+            title: 'Relative difference intercept',
+            xaxis: {
+                title: 'SDDs',
+            }
+        };
+        Plotly.newPlot('plot1', [trace1, trace2_firstparam], layout_firstparam);
+        Plotly.newPlot('plot2', [trace1, trace2_secondparam], layout_secondparam);
+
+        }
+    </script>
+</body>
+</html>

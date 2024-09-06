@@ -1,0 +1,104 @@
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>VIP-2 Limit Calculator</title>
+
+<script>
+function calc(){
+var Sbar=document.getElementById('Sbar').value;
+var SDDsN=document.getElementById('SDDsN').value;
+var twc150=document.getElementById('twc150').value;
+var twc180=document.getElementById('twc180').value;
+var twcgeneric=document.getElementById('twcgeneric').value;
+var current=document.getElementById('current').value;
+
+var efficiency32 = 7.25e-2;//4.04e-2;//4.1e-2; // efficienza per 32 SDDs da MC Fabrizio
+var efficiency32error = 0.09e-2;
+var efficiency18 = 18./32.*efficiency32;
+var efficiency17 = SDDsN/32.*efficiency32;
+var efficiency17error = SDDsN/32.*efficiency32error;
+
+var e = 1.6021766208e-19; // electric charge in Coulomb
+var Nel150 = 1./e*150.*twc150;
+var Nel180 = 1./e*180.*twc180;
+var Nelgeneric = 1./e*current*twcgeneric;
+var l = 0.07599; //0.071; // in metri
+var lcm = 7.599; //0.071; // in metri
+var w = 0.03; // in metri
+var z = 5e-5; // in metri  2*(25 micron)
+var n = 8.46e28; // in  m^−3
+var tau = 3.5e-17; // time between two closer encounters in Copper in seconds
+var Dt150oTau = n/tau*e*z*w*l/150.;
+var Dt180oTau = n/tau*e*z*w*l/180.;
+var DtgenericoTau = n/tau*e*z*w*l/current;
+var Nel = 1./e*(150.*twc150+180.*twc180);
+var Nelalgeneric = 1./e*(150.*twc150+180.*twc180+current*twcgeneric);
+var Nel150 = 1./e*(150.*twc150);
+var Nel180 = 1./e*(180.*twc180);
+var mu = 4.1e-9 ; // mean free path of the electrons (close encounters) in Cu [in cm]
+var mucm = 3.91e-6; // mean free path of the electrons in Cu [in cm]
+var NintSE = lcm/mucm; // numbers of scatterings for a single electrons
+
+var Nint = (Dt150oTau+Dt180oTau); // numbers of scatterings for a single electrons
+var Nintgeneric = (Dt150oTau+Dt180oTau+DtgenericoTau); // numbers of scatterings for a single electrons
+
+var Pabs = 1.; // absorbtion probability is 1 for close encounters
+var PabsScattering = 1./10; // absorbtion probability 
+// var NelNint=(twc150+twc180)*n*z*w*l/tau;
+var NelNint=(Nel150*Dt150oTau+Nel180*Dt180oTau);
+var NelNintgeneric=(Nel150*Dt150oTau+Nel180*Dt180oTau+Nelgeneric*DtgenericoTau);
+
+// upper limit:
+// var ul= Sbar/(efficiency17*NelNint*Pabs);
+var ul= Sbar/(NelNint*Pabs*efficiency17);
+var ulgeneric= Sbar/(NelNintgeneric*Pabs*efficiency17);
+
+var ulScattering = Sbar/(efficiency17*NintSE*Nelalgeneric*PabsScattering);
+var ulScatteringgeneric = Sbar/(efficiency17*NintSE*Nelalgeneric*PabsScattering);
+
+// document.getElementById('result').innerHTML=ul.toPrecision(3);
+document.getElementById('result').innerHTML=ulgeneric.toPrecision(3);
+// document.getElementById('resultscattering').innerHTML=ulScattering.toPrecision(3);
+document.getElementById('resultscattering').innerHTML=ulScatteringgeneric.toPrecision(3);
+document.getElementById('Nel').innerHTML=Nel;
+document.getElementById('Nint').innerHTML=Nint/1e17;
+document.getElementById('NelNint').innerHTML=NelNint;
+document.getElementById('twc150res').innerHTML=twc150;
+document.getElementById('twc180res').innerHTML=twc180;
+document.getElementById('efficiency17').innerHTML=efficiency17;
+document.getElementById('Sbar').innerHTML=Sbar;
+
+return false
+}
+</script>
+
+</head>
+<body>
+<h1 style="color: #5e9ca0;">VIP-2 Limit Calculator</h1>
+<form>
+
+<p>S_bar      <input type="text" id="Sbar"/></p>
+<p>SDD in use <input type="text" id="SDDsN" value='17' /></p>
+<p>Time with current 150 A <input type="text" value = '2434602' id="twc150" /></p>
+<p>Time with current 180 A <input type="text" value='11307166'  onChange="calc()" id="twc180" /></p>
+<p>Time with  <input type="text" value='100'  id="current"/> A <input type="text" value='3616070'  id="twcgeneric" /> s </p>
+
+<input type="button" onClick="calc()" value="Calculate b^2/2" />
+</form>
+<!-- twc180 <div id="twc180res"></div>
+twc150 <div id="twc150res"></div>
+Nel <div id="Nel"></div>
+Nint <div id="Nint"></div>
+NelNint <div id="NelNint"></div>
+Eff <div id="efficiency17"></div>
+ -->
+β<sup>2</sup>/2 from close encounters: <div id="result"></div>
+
+β<sup>2</sup>/2 from scattering: <div id="resultscattering"></div>
+
+</body>
+</html>
+

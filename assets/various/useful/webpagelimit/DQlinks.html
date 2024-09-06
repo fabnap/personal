@@ -1,0 +1,44 @@
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SIDDHARTA-2 DQLinks</title>
+</head>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+    $('#button').click(function(e) {  
+
+        var inputvalue = $("#input").val();
+        // window.location.replace(" https://root.cern/js/latest/?localfile&file=test.root&items=[adcdateinv_"+inputvalue+";1,ratedateROI;1]&opts=[logz+colz+projx1,colz+projx1]&layout=tabs&toolbar=popup");
+		// document.getElementById('result').innerHTML = " https://root.cern/js/latest/?localfile&file=test.root&items=[adcdateinv_"+inputvalue+";1,ratedateROI;1]&opts=[logz+colz+projx1,colz+projx1]&layout=tabs&toolbar=popup";
+		var a = document.createElement('a');
+		var linkText = document.createTextNode("    Link SDD " +inputvalue );
+		a.appendChild(linkText);
+		a.title = "Link SDD" + inputvalue;
+		a.target= '_blank';
+		a.href = "https://root.cern/js/latest/?localfile&file=test.root&items=[adcdateinv_"+inputvalue+";1,ratedateROI;1]&opts=[logz+colz+projx1,colz+projx1]&layout=tabs&toolbar=popup" ;
+		document.body.appendChild(a);
+    });
+});
+</script> 
+<body>
+
+<h1 style="color: #5e9ca0;">SIDDHARTA-2 SDDs Data Quality Links</h1>
+Instructions: open the links, then use the form on the left to open the appropriate root file.
+<br>
+<a href="https://root.cern/js/latest/?localfile&file=test.root&items=[adcdateinv;1,ratedateROI;1]&opts=[logz+colz+projx5,colz+projx1]&layout=tabs&toolbar=popup" target="_blank">RateROI and spectra time projections</a>
+<br>
+For files projected per SDD
+<input type="SDD" value="1" id="input"> 
+<button type="button" id="button">Select SDD</button>
+<br>
+<!-- Link: <div id="result"></div> -->
+<a id="result" target="_blank">Corresponding link</a>
+
+</body>
