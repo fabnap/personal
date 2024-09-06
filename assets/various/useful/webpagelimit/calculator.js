@@ -1,1 +1,62 @@
-function calculateTotal(){let a={sugar:22,butter:12,eggs:2,vanilla:43},l={};l.sugar=$("#qty_sugar").val()*a.sugar,$("#price_sugar").val(l.sugar),l.butter=$("#qty_butter").val()*a.butter,$("#price_butter").val(l.butter),l.eggs=$("#qty_eggs").val()*a.eggs,$("#price_eggs").val(l.eggs),l.vanilla=$("#qty_vanilla").val()*a.vanilla,$("#price_vanilla").val(l.vanilla);let t=l.sugar+l.butter+l.eggs+l.vanilla;$("#total_value").text(t)}$(function(){$(".qty").on("change keyup",calculateTotal)});
+// function calculateTotal()
+// {
+//   // let unit_price={
+//   //   sugar: 22,
+//   //   butter: 12,
+//   //   eggs: 2,
+//   //   vanilla:43    
+//   // };
+//   let item_price={}
+  
+//   item_price.sugar = ($("#qty_sugar").val() * 1 )
+//   $("#price_sugar").val(item_price.sugar);
+  
+//   let total = item_price.sugar * 4;
+
+ 
+//   $("#total_value").text(total);
+  
+// }
+
+// $(function()
+//  {
+//     $(".qty").on("change keyup",calculateTotal)
+// })
+
+
+
+function calculateTotal()
+{
+  let unit_price={
+    sugar: 22,
+    butter: 12,
+    eggs: 2,
+    vanilla:43    
+  };
+  let item_price={}
+  
+  item_price.sugar = ($("#qty_sugar").val() * unit_price.sugar )
+  $("#price_sugar").val(item_price.sugar);
+  
+  item_price.butter = ($("#qty_butter").val() * unit_price.butter )
+  $("#price_butter").val(item_price.butter);
+  
+  item_price.eggs = ($("#qty_eggs").val() * unit_price.eggs )
+  $("#price_eggs").val(item_price.eggs);  
+  
+  item_price.vanilla = ($("#qty_vanilla").val() * unit_price.vanilla )
+  $("#price_vanilla").val(item_price.vanilla);    
+  
+  let total = item_price.sugar + item_price.butter + item_price.eggs + item_price.vanilla;
+
+ 
+  $("#total_value").text(total);
+  
+}
+
+
+$(function()
+ {
+    $(".qty").on("change keyup",calculateTotal)
+})
+
