@@ -54,6 +54,7 @@ function calculateTotal()
   
 }
 
+
 $(function()
  {
     $(".qty").on("change keyup",calculateTotal)
