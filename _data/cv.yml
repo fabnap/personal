@@ -83,7 +83,12 @@
 #     - year: 2029
 #       items: 
 #         - Max Planck Medal
-
+- title: Awards
+  type: nested_list
+  contents:
+    - title: 2022
+      items: Awarded 2kE from the "Fare Ricerca" project of the Regione Lazio.
+      
 - title: Academic Interests
   type: nested_list
   contents:
