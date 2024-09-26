@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  
+title:  Il Principio di Esclusione di Pauli e VIP-2
 date:   2021-01-02 10:40:16
-description: Il Principio di Esclusione di Pauli e la sua violazione spiegati in 5 minuti
+description: Il Principio di Esclusione di Pauli e la sua violazione spiegati in 5 minuti; bonus cosa facciamo con l'esperimento VIP-2 ai Laboratori Nazionali dell'INFN.
 tags: dissemination
 categories: sample-posts
 ---
@@ -23,7 +23,7 @@ Il nostro esperimento è basato su un concetto molto semplice: se il PEP è viol
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/1080px-Laboratori_Nazionali_del_Gran_Sasso,_INFN_(TQB1)_2014-02.png" class="img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/1080px-LNGS.jpg" class="img-fluid rounded z-depth-1" style="max-width: 50%;"%}
     </div>
 </div>
 <div class="caption">
@@ -36,7 +36,7 @@ L'esperimento segue questo principio: se un elettrone va ad occupare lo stesso s
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-		{% include figure.html path="assets/img/Pauli_diagram.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Pauli_diagram.png" class="img-fluid rounded z-depth-1" style="max-width: 50%;" %}
     </div>
 </div>
 <div class="caption">
