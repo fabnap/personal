@@ -7,6 +7,9 @@ nav: true
 nav_order: 2
 ---
 
+- [Testing the Pauli Exclusion Principle and Fundamental Symmetries in Underground Experiments](https://indico.cern.ch/event/1395905/contributions/6223253/attachments/2979756/5246396/NAPOLITANO_DISCRETE24.pdf) at DISCRETE 2024, Ljubljana (SI)
+  - Date: 04/12/2024
+
 - [Kaonic Atoms with the SIDDHARTA-2 experiment](https://indico.koza.if.uj.edu.pl/event/15/timetable/?view=standard) at the 5th Jagiellonian Symposium on Advances in Particles physics and Medicine, Kraków (PL), **invited**
   - Date: 01/07/2024
 

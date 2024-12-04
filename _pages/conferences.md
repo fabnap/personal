@@ -13,8 +13,10 @@ nav_order: 2
 - [ALPACA: modern ALgorithms in machine learning and data analysis: from medical Physics to research with ACcelerAtors and in underground laboratories](https://www.ectstar.eu/workshops/alpaca-modern-algorithms-in-machine-learning-and-data-analysis-from-medical-physics-to-research-with-accelerators-and-in-underground-laboratories/), Main Organizer and chair, financed by ECT* after competitive selection, Trento, 20-24/11/2023
 - [High Precision X-Ray Measurements 2023](https://hpxm2023.github.io), organization and chair with Dr. Alessandro Scordo, Frascati 19-23/06/2023 
 
+### Scientific Committee
+- [High Precision X-Ray Measurements 2025](https://hpxm2025.github.io), Frascati 16-20/06/2025 
 
-### LOC
+### Local Organizing Committee
 
 - [Present and future perspectives in Hadron Physics ](https://agenda.infn.it/event/38467/overview) 17-19 June 2024
 - [Exploring the Quantum Boundaries: an Odyssey into the gravity related collapse models](https://agenda.infn.it/event/40188/) 12/06/24 to 14/06/24
