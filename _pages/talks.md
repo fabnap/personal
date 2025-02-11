@@ -7,6 +7,9 @@ nav: true
 nav_order: 2
 ---
 
+- [Testing the Pauli Exclusion Principle and Fundamental Symmetries in Underground Laboratories: the VIP-2 experiment](https://agenda.infn.it/event/44002/timetable/?view=standard) at The Low Energy Frontier of Particle Physics, LNF
+  - Date: 11/02/2025
+
 - [Testing the Pauli Exclusion Principle and Fundamental Symmetries in Underground Experiments](https://indico.cern.ch/event/1395905/contributions/6223253/attachments/2979756/5246396/NAPOLITANO_DISCRETE24.pdf) at DISCRETE 2024, Ljubljana (SI)
   - Date: 04/12/2024
 
