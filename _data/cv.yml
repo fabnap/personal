@@ -30,9 +30,19 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Non-tenured Assistant Professor (RTDa)
+      institution: Università degli Studi di Perugia
+      year: 2025-
+      description:
+        - title: CMS Collaboration
+          contents:
+            - Developement of (quantum) Machine Learning algorithms for the analysis of hadronically decaying boosted topologies at the LHC.
+            - Upgrade of the CMS detector for the HL-LHC.
+            - Future physics at the FCC.
+
     - title: Senior Post Doc
       institution: Laboratori Nazionali di Frascati (INFN)
-      year: 2023-
+      year: 2023-2025
       description:
         - title: VIP Collaboration
           contents:
