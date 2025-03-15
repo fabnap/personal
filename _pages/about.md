@@ -9,10 +9,10 @@ profile:
   image: me.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Building 22, Room 4</p>
-    <p>Via Enrico Fermi 54</p>
-    <p>00044, Frascati (RM), Italy</p>
-    <p>Laboratori Nazionali di Frascati</p>
+    <p>Via A. Pascoli</p>
+    <p>06123, Perugia (PG), Italy</p>
+    <p>Dipartimento di Fisica e Geologia</p>
+    <p>Università degli studi di Perugia</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
