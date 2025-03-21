@@ -16,7 +16,7 @@ We welcome both Bachelor/Master and PhD students for internships and thesis work
 Here more info about the courses I am teaching at the University of Perugia; TBA.
 
 
-### Thesis and Stage opportunities at INFN's Frascati National Laboratories
+### Thesis and Stage opportunities at University of Perugia and INFN
 
 Take a quiz:
 
