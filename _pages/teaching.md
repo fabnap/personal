@@ -30,7 +30,7 @@ Then get in touch!
 We always look for new students for thesis and internships.
 Take the opportunity to participate in a LHC experiments:
 
-The [CMS] (https://cms.cern/) experiment is a large particle physics experiment at the CERN Large Hadron Collider (LHC) in Geneva, Switzerland. It is one of the largest and most complex scientific collaborations in history, involving thousands of scientists from around the world. The Department of Physics and Geology at the University of Perugia is actively involved in the CMS experiment, contributing in various areas such as data analysis, detector development, and software engineering, detector operation, and data acquisition.
+The [CMS](https://cms.cern/) experiment is a large particle physics experiment at the CERN Large Hadron Collider (LHC) in Geneva, Switzerland. It is one of the largest and most complex scientific collaborations in history, involving thousands of scientists from around the world. The Department of Physics and Geology at the University of Perugia is actively involved in the CMS experiment, contributing in various areas such as data analysis, detector development, and software engineering, detector operation, and data acquisition.
 As prospecting students, you will have the opportunity to work with cutting-edge technology and contribute to groundbreaking research in particle physics.
 Right now, we are looking for students to work on the development of (quantum) machine learning algorithms for the analysis of data from the LHC, particularly targeting hadronically decaying topologies. 
 
