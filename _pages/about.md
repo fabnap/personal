@@ -30,7 +30,7 @@ During my PhD I worked with the [Kirchhoff-Institut Für Physik](https://www.kip
 
 Got my Master in Physics at the Universität Heidelberg, and my Bachelor at the Tor Vergata University of Rome.
 
-[Link to the official UniPG page.](https://www.unipg.it/personale/fabrizio.napolitano)
+[Link to my official UniPG page.](https://www.unipg.it/personale/fabrizio.napolitano)
 
 ---
 
