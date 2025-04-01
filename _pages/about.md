@@ -29,6 +29,7 @@ I received my PhD degree (2020) in Particle Physics at the Universität Heidelbe
 During my PhD I worked with the [Kirchhoff-Institut Für Physik](https://www.kip.uni-heidelberg.de/atlas/) and was funded by the [International Max Planck Research School on Fundamental Symmetries](https://www.mpi-hd.mpg.de/imprs-ptfs/); I spent over a year at [CERN](https://home.cern/) working on the first level trigger.
 
 Got my Master in Physics at the Universität Heidelberg, and my Bachelor at the Tor Vergata University of Rome.
+
 [Link to the official UniPG page.](https://www.unipg.it/personale/fabrizio.napolitano)
 
 ---
