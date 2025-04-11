@@ -43,3 +43,5 @@ In contrasto a questa complessa e lunga procedura in Italia, desidero sottolinea
 È fondamentale che il governo italiano prenda in considerazione queste difficoltà e semplifichi la procedura di riconoscimento dei titoli di studio stranieri. In questo modo, l'Italia potrebbe diventare un luogo più accogliente e invitante per i ricercatori stranieri, promuovendo la diversità e la collaborazione nell'ambito della ricerca.
 
 Edit: aggiungo un articolo de "Il Post" di settembre 2024 fatto molto bene che riporta la situazione attuale: [Il Post](https://www.ilpost.it/2024/09/06/riconoscimento-titoli-studio-esteri-problemi/).
+
+Disclaimer: le opinioni espresse in questo post sono strettamente personali. L’intento è di contribuire a un dibattito costruttivo volto a migliorare il sistema del riconoscimento dei titoli di studio in Italia.
