@@ -8,7 +8,7 @@ related_posts: false
 
 Today I was at the DAQ (data acquisition) desk in the CMS new control room for the first stable beams of 2025. It was a great experience to be part of the team that ensures the smooth operation of the data acquisition system during this critical phase. The atmosphere was electric as we prepared for the first collisions of the year, and I was thrilled to witness the excitement and dedication of my colleagues.
 
-All yes on the event display, and the first events were recorded successfully. It is an incredible moment, trying to guess what kind of process originated the events on the screen.
+All eyes on the event display, and the first events were recorded successfully. It is an incredible moment, trying to guess what kind of process originated the events on the screen.
 
 
 <div class="row">
@@ -28,5 +28,5 @@ The DAQ shifter has a crucial role in ensuring that the data acquisition system 
     </div>
 </div>
 <div class="caption">
-    Special celebrations for the first stable beams of 2025 with the CMS shift crew and expert team. Can you spot me? From [CERN CDS](https://cds.cern.ch/record/2931592).
+    Special celebrations for the first stable beams of 2025 with the CMS shift crew and expert team. Can you spot me? From https://cds.cern.ch/record/2931592.
 </div>
