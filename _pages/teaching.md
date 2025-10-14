@@ -17,9 +17,9 @@ https://www.unipg.it/personale/fabrizio.napolitano/didattica.
 - **Semestre** 1
 - **CFU** 2
 - **SSD** FIS/07
-- **Tipo insegnameto** Obligatorio
+- **Tipo insegnameto** Obbligatorio
 - **Lingua** Italiano
-- **Link** https://www.unipg.it/didattica/corsi-di-laurea-e-laurea-magistrale/archivio/offerta-formativa-2025-26?idins=415540#modulo-415544
+- **Link** [link](https://www.unipg.it/didattica/corsi-di-laurea-e-laurea-magistrale/archivio/offerta-formativa-2025-26?idins=415540#modulo-415544)
 
 
 
