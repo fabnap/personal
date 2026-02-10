@@ -7,6 +7,9 @@ nav: true
 nav_order: 2
 ---
 
+- [Boosted Objects in Vector Boson Scattering: from classical to Quantum ML prospects](https://agenda.infn.it/event/48148/timetable/?view=standard) at the 3rd workshop on quantum computing, University of Milano Bicocca
+  - Date: 04/02/2026
+
 - [Testing the Pauli Exclusion Principle and Fundamental Symmetries in Underground Laboratories: the VIP-2 experiment](https://agenda.infn.it/event/44002/timetable/?view=standard) at The Low Energy Frontier of Particle Physics, LNF
   - Date: 11/02/2025
 
