@@ -31,4 +31,4 @@ nav_order: 2
 ### Editorial Activities
 
 - Guest Editor together with Dr. Scordo, of the “High Precision X-ray Measurements 2023” special issue of Condensed Matter (ISSN 2410-3896) published by MDPI, section “Spectroscopy and Imaging in Condensed Matter”.
-- I am reviewer of “International Journal of Modern Physics A” (IJMPA) and Acta Physica Polonica. 
+- I am reviewer of European Physical Journa C, International Journal of Modern Physics A (IJMPA) and Acta Physica Polonica. 
